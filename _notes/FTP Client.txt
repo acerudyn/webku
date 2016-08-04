@@ -1,0 +1,4 @@
+FTP IP 		: 31.220.16.44
+Port FTP 	: 21
+Username FTP 	: u595091451
+Password FTP 	: muhamadakhirudin

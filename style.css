@@ -1,0 +1,281 @@
+@charset "utf-8";
+/* CSS Document */	
+#wrapper{
+		border:1px black;
+		border-radius:6px;
+		margin:30px auto;	
+		width:1082px;
+		height:651px;
+		position:relative;
+}
+
+#hello{
+		background-image:url(gambar/hello.png);
+		background-repeat:no-repeat;
+		width:657px;
+		height:71px;
+		display:inline-block;
+		margin-right:300px;
+}
+
+#me{	
+		background-image:url(gambar/me.png);
+		background-repeat:no-repeat;
+		width:109px;
+		height:71px;
+		display:inline-block;
+		float:right;
+}
+
+.left-aside{	
+		float:left;	
+		display:block;
+}
+
+#aboutme{
+		background-image:url(gambar/about.png);
+		background-repeat:no-repeat;
+		width:359px;
+		height:179px;
+		margin-bottom::3px;
+		margin-top:3px;
+		transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-o-transition: all 0.5s;	
+}
+
+#aboutme:hover{
+	 	box-shadow: 3px 3px 13px 5px rgba(0,0,0,3);
+}
+
+#alamat{
+		background-image:url(gambar/address.png);
+		background-repeat:no-repeat;
+		width:359px;
+		height:179px;
+		margin-bottom::3px;	
+		margin-top:3px;
+		transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-o-transition: all 0.5s;
+}
+
+#alamat:hover{
+		box-shadow: 3px 3px 13px 5px rgba(0,0,0,3);
+}
+
+#skill{
+		background-image:url(gambar/skill.png);
+		background-repeat:no-repeat;
+		width:359px;
+		height:179px;
+		background-position:center;
+		margin-bottom::3px;
+		margin-top:3px;
+		transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-o-transition: all 0.5s;
+}
+
+#skill:hover{
+		box-shadow: 3px 3px 13px 5px rgba(0,0,0,3);
+}
+
+.right-aside{
+		float:right;	
+		display:block;
+}
+
+#map{	
+		background-color:#A53692;
+		width:359px;
+		height:179px;
+		margin-bottom::3px;	
+		margin-top:3px;
+		background-position:center;
+		transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-o-transition: all 0.5s;
+}
+
+#map:hover{
+		box-shadow: 3px 3px 13px 5px rgba(0,0,0,3);
+}		
+
+
+#music{
+		background-image:url(gambar/music.png);
+		margin-bottom::3px;	
+		margin-top:3px;
+		background-repeat:no-repeat;
+		width:179px;
+		height:179px;
+		float:right;	
+}
+
+#facebook{
+		background-image:url(gambar/facebook.png);
+		margin-bottom::3px;	
+		margin-top:3px;
+		background-repeat:no-repeat;
+		width:179px;
+		height:179px;
+		transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-o-transition: all 0.5s;
+}
+
+#facebook:hover{
+		box-shadow: 3px 3px 13px 5px rgba(0,0,0,3);
+}
+
+
+#weather{
+		background-color:#DD6E38;
+		width:359px;
+		height:179px;
+		margin-top:3px;
+		overflow:hidden;
+		background-position:center;
+		transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-o-transition: all 0.5s;
+}
+
+#weather:hover{
+		box-shadow: 3px 3px 13px 5px rgba(0,0,0,3);
+}
+
+#test{
+		font-family:Arial;
+		font-size:27px;
+		color:#FFF;
+		margin-top:11px;
+		margin-left:53px;
+}	
+
+
+.center{	
+		width:359px;
+		height:179px;
+		margin:auto;
+		display:block;
+}
+
+#email{	
+		background-image:url(gambar/email.png);
+		background-repeat:no-repeat;
+		width:359px;
+		height:179px;
+		background-position:center;
+		margin-bottom:3px;	
+		margin-top:3px;
+		transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-o-transition: all 0.5s;
+}
+
+#email:hover{
+		box-shadow: 3px 3px 13px 5px rgba(0,0,0,3);
+}
+
+
+#galeri{
+		background-color:#6C6;
+		width:359px;
+		height:179px;
+		margin-bottom:3px;
+		margin-top:3px;
+		background-position:center;
+		transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-o-transition: all 0.5s;
+}
+
+#galeri:hover{
+		box-shadow: 3px 3px 13px 5px rgba(0,0,0,3);
+}
+
+img {
+width:359px;
+height:179px;
+}
+#slideshow {
+    position:relative;
+    height:250px;
+}
+
+#slideshow img {
+    position:absolute;
+    left:0;
+    z-index:8;
+    opacity:0.0;
+    text-align: center;
+}
+
+#slideshow img.active {
+    z-index:10;
+    opacity:1.0;
+}
+
+#slideshow img.last-active {
+    z-index:9;
+}
+			
+
+
+#kalender{
+		background-color:#00AFEF;
+		background-repeat:no-repeat;
+		margin-top:1px;
+		width:178px;
+		height:177px;
+		display:inline-block;
+		float:left;		
+}
+
+#tanggal{
+		font-family:sans-serif;
+		font-size:83px;
+		font-weight:bolder;
+		color:#FFF;
+		margin-left:45px;
+		margin-top:55px;
+}
+
+#hari{
+		font-family:Arial;
+		font-size:18px;
+		font-weight:bold;
+		color:#FFF;
+		text-align:center;
+		margin-top:95px;
+		margin-left:20px;
+		transform-origin:center;
+}
+
+#twitter{
+		background-image:url(gambar/twitter.png);
+		background-repeat:no-repeat;
+		width:177px;
+		height:178px;
+		float:right;
+		display:inline;
+		margin-left:1px;
+		transition: all 0.5s;
+		-moz-transition: all 0.5s;
+		-webkit-transition: all 0.5s;
+		-o-transition: all 0.5s;
+}
+
+#twitter:hover{
+		box-shadow: 3px 3px 13px 5px rgba(0,0,0,3);
+}
